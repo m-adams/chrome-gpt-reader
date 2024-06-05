@@ -11,6 +11,8 @@ const config = merge(common, {
     popup: PATHS.src + '/popup.js',
     contentScript: PATHS.src + '/contentScript.js',
     background: PATHS.src + '/background.js',
+    welcome: PATHS.src + '/welcome.js',
+    options: PATHS.src + '/options.js',
   },
 });
 

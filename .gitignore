@@ -4,6 +4,8 @@
 # production
 /build
 
+*.apikey
+
 # misc
 .DS_Store
 
