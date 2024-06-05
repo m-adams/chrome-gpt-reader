@@ -9,11 +9,12 @@
 * `package.json`: Contains project configuration, scripts, and dependencies.
 
 ## Test the extension
-1. `npm run watch`
-2. Open [chrome://extensions](chrome://extensions).
-3. Enable developer mode (top right of page).
-4. Click "Load unpacked extension" (top left page).
-5. Select this directory.
+* `npm install`
+* `npm run watch` will watch the folder for changes and update the build folder
+* Open [chrome://extensions](chrome://extensions).
+* Enable developer mode (top right of page).
+* Click "Load unpacked extension" (top left page).
+* Select the "build" directory.
 
 ## Bundle the extension
 To package the source code into static files for the Chrome webstore, execute `npm run build`.
